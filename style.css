@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 650px;
+}
+.leftheader {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.rightheader,
+.rightheader a {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.contenttop h1{
+    font-size: 48px;
+    color: white;
+}
+.contenttop p{
+font-size: 18px;
+color: white;
+}
+
+.contenttop{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    gap: 330px;
+    padding: 20px;
+    align-items: center;
+}
+.contenttop .left{
+    display: flex
+    flex-direction: column;
+    max-width: 400px;
+    justi
+    
+    
+
+}
+
+.contenttop img {
+  max-width: 450px;
+  
+ 
+}
