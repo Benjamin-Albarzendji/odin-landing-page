@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Roboto;
+  margin: 0;
 }
 
 .header {
@@ -24,35 +25,121 @@ body {
   color: white;
   font-size: 18px;
 }
-.contenttop h1{
-    font-size: 48px;
-    color: white;
+.contenttop h1 {
+  font-size: 48px;
+  color: white;
 }
-.contenttop p{
-font-size: 18px;
-color: white;
+.contenttop p {
+  font-size: 18px;
+  color: white;
 }
 
-.contenttop{
-    background-color: #1f2937;
-    display: flex;
-    justify-content: center;
-    gap: 330px;
-    padding: 20px;
-    align-items: center;
+.contenttop {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  gap: 330px;
+  padding: 20px;
+  align-items: center;
 }
-.contenttop .left{
-    display: flex
-    flex-direction: column;
-    max-width: 400px;
-    justi
-    
-    
-
+.contenttop .left {
+  display: flex;
+  max-width: 400px;
+  flex-wrap: wrap;
+  align-items: flex-end;
 }
 
 .contenttop img {
   max-width: 450px;
-  
- 
+}
+
+.midone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.midone .cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+.cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 200px;
+}
+.border {
+  border: #3882f6 solid;
+  border-width: 3px;
+  max-width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
+
+.midtwo {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.midtwo p {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  padding: 150px;
+  max-width: 1200px;
+}
+
+.bottom {
+  display: flex;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.bottom .card {
+  border: #3882f6 solid;
+  background-color: #3882f6;
+  border-radius: 10px;
+  border-width: 3px;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 200px;
+}
+.bottom .card .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: #3882f6 solid;
+}
+.bottom button {
+  border: #e5e7eb solid;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 40px;
+  font-weight: bold;
 }
